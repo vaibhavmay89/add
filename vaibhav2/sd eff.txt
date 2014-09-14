@@ -1,0 +1,13 @@
+the code opens a journal 
+if the open volume is of prev year the journal is rejected else we review remaining issues and crawl the open papers 
+
+for each issue encountered the text is checked for the published date and if not new it is rejected too 
+
+then the other closed journals are checked 
+
+and there issues are checked in the same way 
+
+for each page opened we scrape the papers published 
+
+
+target is to get the urls of all the papers so that they can be passed on to selenium 
