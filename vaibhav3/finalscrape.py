@@ -1,6 +1,6 @@
 from lxml import html
 import requests 
-
+ 
 page = requests.get('http://www.sciencedirect.com/science/article/pii/S0921883113002434')
 tree = html.fromstring(page.text)
 
